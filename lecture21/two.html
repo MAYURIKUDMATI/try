@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: antiquewhite;
+            border: 2px solid black;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+        }
+        #boxleft{
+             background-color: chocolate;
+             border: 2px solid blue;
+             margin: 2px;
+             padding: 2px;
+             width: 47%;
+             display: flex;
+             flex-direction: column;
+        }
+        
+        #boxright{
+            background-color: blueviolet;
+            border: 2px solid red;
+            margin: 2px;
+            padding: 2px;
+            width: 47%;
+        }
+        p{
+            border: solid white 2px;
+        }
+        @media(max-width:640px){
+            .container{
+                flex-direction: column;
+            }
+        }
+       
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div id="boxleft">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <div id="boxright">
+         <img src="m.jpg" alt="mayuri" height="200px">
+        </div>
+    </div>
+</body>
+</html>

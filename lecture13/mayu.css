@@ -1,0 +1,12 @@
+h1{
+    font-size: larger;
+    text-align: center;
+}
+p{
+    background-color: aqua;
+}
+p{color: red;}
+h1{
+    font-weight: 600;
+}
+/* separation of concern */

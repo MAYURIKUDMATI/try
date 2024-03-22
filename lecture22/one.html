@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aqua;
+            border: 2px solid black;
+            width: 900px;
+            height: 900px;
+            border-radius: 19px;
+            margin: 3px;
+            padding: 3px;
+            display: flex;
+            /* flex-direction: row; */
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .box{
+            border: 3px solid pink;
+            margin: 3px;
+            padding: 9px;
+            border-top: 9px;
+            background-color: antiquewhite;
+            width: 300px;
+            height: 300px;
+            overflow: scroll;
+            box-shadow: inset 2px 3px 7px 7px rgb(86, 49, 49);
+           
+            
+        }
+        @media(200px<=width<=333px){
+            .container{
+                background-color: blue;
+            }
+        }
+        #para1{
+            text-shadow: 2px 4px 3px red;
+        }
+    </style>
+
+</head>
+<body> <h1>Hello Guys</h1>
+    <div class="container">
+        <div class="box">
+            <h2 id="para1"> Hello World</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iure optio, atque ullam deserunt reiciendis mollitia aut quis cupiditate? Soluta!</p>
+            <img src="a.jpg" alt="mayu" width="200px" height="200px">
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae ratione nisi, atque dolorum recusandae optio saepe placeat itaque corporis, dicta, reprehenderit similique repellendus. Velit facilis nam perspiciatis porro a? Assumenda.</p>
+        </div>
+
+    </div>
+</body>
+</html>

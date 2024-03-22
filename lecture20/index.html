@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .container{
+        background-color: bisque;
+        border: 5px solid black;
+        margin: 2px;
+        padding: 2px;
+        height: 1000px;
+        display: flex;
+        flex-direction: row;
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column-reverse; */
+        /* flex-direction: row; */
+        /* flex-wrap: nowrap; */
+        /* flex-wrap:wrap; */
+        /* flex-flow: column-reverse wrap-reverse; */
+        /* justify-content:start; */
+        justify-content:center; 
+        /* justify-content: space-around; */
+        /* align-items: stretch; */
+        align-items: center;
+        /* align-items: center; */
+        
+
+
+      }
+      .box{
+        height: 200px;
+        /* height: 200px; */
+        width: 200px;
+        border: 1px solid black;
+        margin: 2px;
+        padding: 2px;
+      }
+      #box1{
+       background-color: aqua;
+       /* order: 2; */
+       /* flex-shrink: 4; */
+       /* flex-grow: 4; */
+      }
+      #box2{
+       background-color: blue; 
+       /* order: 3; */
+    }
+    #box3{
+       background-color: red;
+       /* order: 1;  */
+    }
+    #box4{
+     background-color: pink; 
+     /* order: -1;   */
+     /* flex-basis: 400px; */
+    }
+    .index{
+      background-color: aliceblue;
+      border: 1px solid black;
+      overflow:scroll;
+      width:700px;
+      height: 500px;
+    }
+      
+       
+    </style>
+  
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">box 1</div>
+        <div class="box"  id="box2">box 2</div>
+        <div class="box"  id="box3">box 3</div>
+        <div class="box"  id="box4">box 4</div>
+    </div>
+    <div class="index">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloribus sequi ipsum dolores? Quos, delectus! Eum, quae neque amet explicabo, eligendi illum velit alias quidem nulla sunt tempora mollitia illo nisi pariatur animi tempore fugit quasi. Ad sed minima repellendus iusto minus suscipit quia expedita, animi incidunt aperiam, officiis iure hic eligendi delectus? Deserunt sunt architecto, repellat, laboriosam rerum perspiciatis, ducimus hic asperiores fuga odit vitae explicabo veritatis quo eveniet itaque accusamus alias temporibus? Accusantium ipsa perspiciatis libero excepturi. Et, facilis a veniam dicta nulla, provident commodi eos, recusandae amet illum ad. Harum aliquid aperiam ad eos pariatur cupiditate mollitia?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deleniti nam nulla tempore quidem rem eveniet facere odio placeat repellat. Eos beatae, eveniet ratione quibusdam tempore accusantium inventore esse porro? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur commodi, cupiditate maxime neque numquam dignissimos aliquid rem similique pariatur, inventore quibusdam quidem? Dolores, eos quasi molestias eveniet ex debitis culpa, tempora ipsum, facere illum eaque! Repudiandae dolores quos nihil est, quo odio voluptatem exercitationem perspiciatis accusamus animi laudantium facilis vel, magni eos rerum quam voluptatibus sint, dolorem voluptatum corrupti praesentium sed minima tempore quisquam. Doloremque magnam perferendis id fuga. Quod eaque placeat aliquid deserunt natus mollitia neque veniam tempore asperiores cum magni ab ipsam minima suscipit officia cumque, molestiae, vero accusantium id nihil a quidem in quas. Dignissimos, sed nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione perferendis exercitationem, sunt explicabo nostrum minus natus voluptates inventore accusantium ipsum cum consequatur eaque ad iusto adipisci cumque molestias, dolorem animi, excepturi eos odio aliquid ipsam? Hic, accusamus. Ducimus blanditiis, aliquam est beatae deleniti, magnam ipsa neque, repudiandae incidunt ad nulla.</p>
+  </div>
+  </body>
+</html>

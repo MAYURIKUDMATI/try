@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shadow</title>
+    <style>
+        :root{
+            --primary-color:brown;
+            --custom-width:330px;
+        }
+        .container{
+            background-color: beige;
+            height: 700px;
+            width: 100% ;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .box{
+            --primary-color:brown;
+            --custom-width:330px;
+            background-color: aqua;
+            width: var(--custom-width)
+            /* border: 6px solid var(--primary-color); */
+            /* margin: 2px; */
+            /* padding: 2px; */
+           /* box-shadow : 50px 5px var(--primary-color); */
+           /* box-shadow: -10px 10px 70px blue; */
+           /* box-shadow: 10px 15px 50px 80px rgb(124, 124, 201) ; */
+           /* box-shadow: inset -10px -15px 5px 50px rgb(140, 140, 13); */
+           /* box-shadow: 15px 10px red, 30px 15px rgb(15, 162, 145); */
+         }
+
+         #head1{
+            /* text-shadow: -15px 17px 1px var(--primary-color); */
+            /* text-shadow: white 10px 12px 1px; */
+            /* text-shadow: pink 10px 12px; */
+           text-shadow: 5px 2px; 
+         }
+
+    </style>
+</head>
+<body>
+     <div class="container">
+
+        <div class="box">
+            <img src="a.jpg" alt="mayu"  width="200px" height="200px">
+            <h2 id="head1"> Welcome to World In mayuri</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam numquam eveniet vero a corrupti doloribus laudantium magnam explicabo ad fugiat?</p>
+
+        </div>
+     </div>   
+</body>
+</html>
